@@ -9,9 +9,8 @@ Scheme devcontainer using [chibi-scheme](https://github.com/ashinn/chibi-scheme)
 Open devcontainer in tool of choice (https://containers.dev/supporting)
 
 ```
-root@5cf47f96aa9f:/workspaces/scheme-dev# chibi-scheme 
-> (+ 1 3)
-4
+root@5cf47f96aa9f:/workspaces/scheme-dev# chibi-scheme -q examples/reverse.scm 
+(G F E D C B A)
 ```
 
 ## Resources
